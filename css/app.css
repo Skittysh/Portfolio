@@ -1,5 +1,10 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: lavenderblush;
+}
+
+body {
+    background-color: lavenderblush;
 }
 
 h1:focus {
@@ -100,4 +105,61 @@ a, .btn-link {
 
 code {
     color: #c02d76;
+}
+
+.thin-input {
+    width: 40px;
+    height:40px;
+}
+
+.pair-separator {
+    margin-right: 20px;
+}
+
+.last-field {
+    margin-right: 0;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table tr {
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #ddd;
+    padding: 7px 15px;
+}
+
+.styled-table tr:nth-of-type(even) {
+    background-color: #f2f2f2;
+}
+
+.styled-table tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table td {
+    padding: 8px 2px;
+}
+
+.thin-input {
+    width: 50px;
+}
+
+.pair-separator {
+    margin-right: 20px;
+}
+
+.last-field {
+    margin-right: 0;
+}
+
+.smaller-input {
+    width: 40px;
+    height: 30px;
 }
