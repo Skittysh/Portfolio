@@ -92,6 +92,7 @@ main[b-xn2l5aia1e] {
 .top-row[b-r1r623j3hl] {
     height: 3.5rem;
     background-color: rgba(0,0,0,0.4);
+    width: 100vw;
 }   
 
 .navbar-brand[b-r1r623j3hl] {
@@ -112,6 +113,15 @@ main[b-xn2l5aia1e] {
     background-size: cover;
 }
 
+.container-fluid[b-r1r623j3hl]
+{
+    min-width: 1000px;
+}
+
+.navbar[b-r1r623j3hl]
+{
+    min-width:1000px;
+}
 
 .nav-item[b-r1r623j3hl] {
     font-size: 1.4rem;

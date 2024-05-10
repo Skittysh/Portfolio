@@ -228,3 +228,25 @@ code {
     padding: 1px;
     margin-left: 100px;
 }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) scale(150%) translateX(10px);
+    }
+    25% {
+        transform: rotate(90deg) scale(66%) translateX(-10px);
+    }
+    50% {
+        transform: rotate(180deg) scale(150%) translateY(10px);
+    }
+    75% {
+        transform: rotate(270deg) scale(66%) translateY(-10px);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.spin
+{
+    animation: spin 3s linear infinite;
+}
