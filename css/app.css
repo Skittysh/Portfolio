@@ -163,3 +163,68 @@ code {
     width: 40px;
     height: 30px;
 }
+
+.nav-arrow-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow-container {
+    order: 2;
+}
+
+.question-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: auto; 
+}
+
+.question {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.answer-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.answer-button:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.score {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-container {
+    flex: 2;
+    margin-right: 20px;
+    margin-left: 300px;
+    padding: 1px;
+}
+
+.text-container {
+    flex: 1;
+    padding: 1px;
+    margin-left: 100px;
+}
